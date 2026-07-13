@@ -1,6 +1,6 @@
 export default function Footer() {
   const whatsappNumber = "919511603351"; // country code + number, no + or dashes
-  const instagramUrl = "https://www.instagram.com/nirrraajj?igsh=c244cTY3YWQxamxn";
+  const instagramUrl = "https://www.instagram.com/varmala.stories?igsh=MWJ4enZ6Zjc1YnVrOA==";
   const email = "Varmala.stories@gmail.com";
   const phoneDisplay = "+91-9511603351";
 
