@@ -26,8 +26,8 @@ router.post("/", async (req, res) => {
     // since the message is already safely saved in the database.
     transporter
       .sendMail({
-        from: `"Varmala Stories Website" <${process.env.EMAIL_USER}>`,
-        to: process.env.NOTIFY_EMAIL || process.env.EMAIL_USER,
+        from: `"Varmala Stories Website" <${process.env.EMAIL_FROM}>`,
+        to: process.env.NOTIFY_EMAIL,
         replyTo: email,
         subject: `New inquiry from ${name}`,
         text: `
