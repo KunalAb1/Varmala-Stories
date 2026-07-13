@@ -61,7 +61,7 @@ export default function ContactForm() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <Field label="Phone (optional)" name="phone" value={form.phone} onChange={handleChange} />
+        <Field label="Phone" name="phone" value={form.phone} onChange={handleChange} />
         <div>
           <label className="font-mono text-xs tracking-widest2 uppercase text-ink/70">
             Event type
