@@ -1,4 +1,4 @@
-# Alex Studio — Photography Portfolio (MERN)
+# Varmala Stories — Photography Portfolio (MERN)
 
 A wedding/event photography portfolio site. Stack: MongoDB, Express, React (Next.js), Node —
 plus ImageKit for free image hosting/CDN.
